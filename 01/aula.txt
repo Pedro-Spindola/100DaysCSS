@@ -1,0 +1,11 @@
+Tipos de position
+
+static é o valor padrão que vem nos elementos.
+
+relative ele permanece no fluxo normal do documento, porem poderá ser alterado usando as propriedades top, right, bottom e left.
+
+absolute o elemento com essa propriedade vai ser removido do fluxo normal do documento e vai ser posicionado em relação ao seu elemento pai (o elemento pai não poderé ser static), elas pode ser posicionada usando as propriedades top, right, bottom e left.
+
+fixed são elemento que são removido e posicionado em relação a janela do navegador, sendo permante na tela durante a rolagem.
+
+ 

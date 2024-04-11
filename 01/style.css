@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.n{
+    display: flex;
+    height: 100vh;
+    width: 1200px;
+    margin:0 auto;
+}
+.container
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.frame {
+    position: absolute;
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+    color: #fff;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+}
+.number {
+    position: relative;
+    height: 100px;
+    width: 200px;
+    margin-left: 30px;
+}
+.one-one {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -16px;
+    height: 40px;
+    width: 20px;
+    background: #fff;
+    border-radius: 3px;
+    transform: rotate(50deg);
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+  }
+  .one-two {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0px;
+    height: 100px;
+    width: 24px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+  }
+  .zero-one, 
+  .zero-two {
+    position: absolute;
+    z-index: 8;
+    top: 0;
+    left: 20px;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 24px solid #ffffff;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.4);
+  }
+  .zero-two {
+    z-index: 6;
+    left: 100px;
+  }
+  .big {
+    position: relative;
+    z-index: 20;
+    display: block;
+    font-size: 82px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 6px;
+  }
+  
+  .small {
+    position: relative;
+    z-index: 20;
+    display: block; 
+    font-size: 23px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: .04em;
+    margin-top: 6px;
+  }
+/*
+
+.big {
+  position: relative;
+  z-index: 20;
+  display: block;
+  font-size: 82px;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.small {
+  position: relative;
+  z-index: 20;
+  display: block; 
+  font-size: 23px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .04em;
+}
+*/
